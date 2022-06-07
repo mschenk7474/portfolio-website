@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mason Schenk Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+        <img
+          src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Fmason.logo.png?v=1635451025044"
+          alt="logo"
+        />
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Personal Portfolio <strong class ="strong">Website</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        HTML, CSS, JavaScript
+      </p>
+      <img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2FComputer%20for%20All%20Portfolio.jpg?v=1635990453035" alt="Computer Pic for all portfolio pics" class="intro__img">
+    </section>
+    
+    <div class="portfolio-item-individual">
+        <ul>
+          <li>Created a website which sheds light on who I am, what I do, and what I am capable of doing.</li>
+          <li>At the bottom of every page, it has my resume, LikedIn and Github linked as well as a way to email me.</li>
+        </ul>
+      <img src= "https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Fport%202%20best%20image.jpg?v=1638484931073" alt="Website Pic ">
+        <ul>
+          <li>I have included a blueprint of the HTML, CSS, and JavaScript that makes this work in the project link below. The pictures won't work because they are stored on Glitch. This website is hosted on Glitch.com.</li>
+        </ul>
+      <a href="https://github.com/mschenk7474/portfolio-website" target="_blank" class="btn btn-project">Project Link</a>
+                                         
+    </div>
+    
+    
+    
+    <!-- Footer -->
+    <footer>
+      <p>Want to connect? Reach out below!</p>
+      <div class="social_list">
+        <a class="social-list__link" href="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2FSoftware-Engineering-Resume.pdf?v=1635655808150" target="_blank"><img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Ffile-pdf-solid.svg?v=1635619202590" alt="pdf logo" class ="social-list__icons"></a>
+        <a class="social-list__link" href="https://github.com/mschenk7474" target="_blank"><img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Fgithub-square-brands.svg?v=1635619508006" alt="github logo" class ="social-list__icons"></a>
+        <a class="social-list__link" href="https://www.linkedin.com/in/masonschenk/" target="_blank"><img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Flinkedin-brands.svg?v=1635619595819" alt="linkedin logo" class ="social-list__icons"></a>
+      </div>
+      <div class="email-submission">
+       <form accept-charset="UTF-8" action="https://getform.io/f/6a794f6f-f901-47ad-b2d3-b04621cf185d" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
+        <div>
+         <label>Full Name</label>
+         <div>
+            <input class="email-name" type="text" name="first_name" placeholder="Enter your name and surname" required="required">
+         </div>
+        </div>
+        <br>
+        <div>
+         <label>Email address</label>
+         <div>
+            <input class="email-address" type="email" name="email" placeholder="Enter your email address" required="required">
+         </div>
+        </div>
+        <br>
+        <div>
+         <label>Your Message</label>
+         <div>
+            <textarea class="email-message" name="message" placeholder="Enter your message" required="required"></textarea>
+         </div>
+        </div>
+        <br>
+        <button class="email-button" type="submit">SUBMIT</button>
+     </form>
+    </div>
+    </footer>
+    
+    <script src="index.js"></script>
+    
+    
+  </body>
+</html>
