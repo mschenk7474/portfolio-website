@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mason Schenk Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#home">
+        <img
+          src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Fmason.logo.png?v=1635451025044"
+          alt="logo"
+        />
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong class ="strong">Mason Schenk</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Full-Stack Developer
+      </p>
+      <img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Fsolo_from_photoshoot_july_21_2021.JPEG?v=1635475927998" alt="Picture of Mason smiling" class="intro__img">
+    </section>
+    
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">
+        What I do
+      </h2>
+      <div class="services">
+        <div class="service">
+          <h3>Front-End Development</h3>
+            <p>
+               I use HTML and CSS to develop websites like this one, and hopefully soon for others as well! I am currently learning more about JavaScript and will apply that to this website over time and with my websites in the future
+            </p>
+        </div>
+        
+        <div class="service">
+          <h3>Back-End Development</h3>
+            <p>
+               I have coded in C++ and Python to create some great projects that will be featured down below in my portfolio pieces, and in my resume, which can be downloaded by clicking the PDF button in the footer
+            </p>
+        </div>
+      </div>
+      
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    
+    
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">Devloper based out of TN</p>
+      
+      <div class="about-me__body">
+        <p>I took a C++ class my first semester at college and instantly fell in love with the concept of creation within computers. I have since then got a grasp on Python, and am now starting to master HTML, CSS, and JavaScript with intentions on looking at database work with MySQL in the future</p>
+        <p>I have now gained more knowledge in many diverse areas of the programming world, and I strive to make it to my profession in the next couple of years. I want to intern/be employed at a company where I can grow into the programmer I have always wanted to become and I am willing to hear any ideas of an internship, job offer, or collaboration in an email. You can send that email to me below in the footer by filling out the form</p>
+      </div>
+      
+      <img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2FMason%20Solo%20long%20height.JPEG?v=1635558172491" alt="another pic of me" class="about__img">
+      <a href="more-about-me.html" class="btn btn_know_more">Know More About me</a>
+    </section>
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+      
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item-1.html" class="portfolio__item">
+          <img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2FSudoku.jpg?v=1635990325946" alt="sudoku image" class="portfolio__img">
+        </a>
+        
+         <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+          <img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2FComputer%20for%20All%20Portfolio.jpg?v=1635990453035" alt="placeholder image" class="portfolio__img">
+        </a>
+        
+         <!-- Portfolio item 03 -->
+        <a href="#" class="portfolio__item">
+          <img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2FComputer%20for%20All%20Portfolio.jpg?v=1635990453035" alt="placeholder image" class="portfolio__img">
+        </a>
+      </div>
+    </section>
+    
+    
+    
+    <!--footer -->
+    
+    <footer>
+      <p>Want to connect? Reach out below!</p>
+      <div class="social_list">
+        <a class="social-list__link" href="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2FSoftware-Engineering-Resume.pdf?v=1635655808150" target="_blank"><img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Ffile-pdf-solid.svg?v=1635619202590" alt="pdf logo" class ="social-list__icons"></a>
+        <a class="social-list__link" href="https://github.com/mschenk7474" target="_blank"><img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Fgithub-square-brands.svg?v=1635619508006" alt="github logo" class ="social-list__icons"></a>
+        <a class="social-list__link" href="https://www.linkedin.com/in/masonschenk/" target="_blank"><img src="https://cdn.glitch.me/77fae47e-de51-48c2-8476-e575c903b436%2Flinkedin-brands.svg?v=1635619595819" alt="linkedin logo" class ="social-list__icons"></a>
+      </div>
+      <div class="email-submission">
+       <form accept-charset="UTF-8" action="https://getform.io/f/6a794f6f-f901-47ad-b2d3-b04621cf185d" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
+        <div>
+         <label>Full Name</label>
+         <div>
+            <input class="email-name" type="text" name="first_name" placeholder="Enter your name and surname" required="required">
+         </div>
+        </div>
+        <br>
+        <div>
+         <label>Email address</label>
+         <div>
+            <input class="email-address" type="email" name="email" placeholder="Enter your email address" required="required">
+         </div>
+        </div>
+        <br>
+        <div>
+         <label>Your Message</label>
+         <div>
+            <textarea class="email-message" name="message" placeholder="Enter your message" required="required"></textarea>
+         </div>
+        </div>
+        <br>
+        <button class="email-button" type="submit">SUBMIT</button>
+     </form>
+    </div>
+    </footer>
+    
+    <script src="index.js"></script>
+    
+    
+  </body>
+</html>
