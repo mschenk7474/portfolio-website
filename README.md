@@ -1,8 +1,7 @@
 # Personal Portfolio Website
 This is my personal portfolio website code, which sheds insights on who I am, what I do, 
 and what I am capable of doing. At the bottom of every page, it has my resume, LikedIn
-and Github linked as well as a way to email me. I currently have 2 portfolio pieces on display
-with a third coming soon! I have included a blueprint of the HTML, CSS, and JavaScript that makes
+and Github linked as well as a way to email me. I have included a blueprint of the HTML, CSS, and JavaScript that makes
 this work. This website is hosted on Glitch.com.
 
 ## Getting Started
